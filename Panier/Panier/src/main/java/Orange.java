@@ -28,5 +28,10 @@ public class Orange
     {
         return this.pays;
     }
+    
+    public boolean equals(Orange o)
+    {
+        return (this.prix == o.getPrix()) && this.pays.equals(o.getOrigine());
+    }    
 }
 
